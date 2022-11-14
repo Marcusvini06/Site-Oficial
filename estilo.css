@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,900");
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body {
+  font-family: Roboto, sans-serif;
+  background: #151515;
+  font-size: 16px;
+  color: white;
+}
+main{
+  width: 750px;
+  margin: 10px auto 0;
+}
+.left, .right {
+  width:350px;
+}
+.right {
+  margin: 50px 0;
+  float: right
+}
+.nest {
+  width: 350px;
+  height:350px;
+  background: linear-gradient(135deg, #BABABA 0%, #050505 100%);
+  border-radius: 100%;
+  border: 5px solid #bebebe;
+  box-shadow: inset 0px 0px 0px 11px #e2e2e2,inset 0px 0px 0px 13px #767676;
+}
+.alura-logo {
+  width: 45px;
+  margin: 45px 145px 0;
+} 
+.nest .main {
+  width: 225px;
+  height:225px;
+  margin: 10px auto;
+  background: #101010;
+  border-radius: 100%;
+  box-shadow: inset 0px 0px 0px 4px #000000,inset 0px 0px 0px 30px #4d4d4d;
+}
+.main h1 {
+  text-align: center;
+  font-size: 70px;
+  line-height: 230px;
+}
+.main h1 span {
+    font-size: 20px;
+    position: absolute;
+    margin: -30px -5px;
+} 
+.triangle {
+  width: 0; 
+  height: 0; 
+  margin: -93.7px auto;
+  border-radius: 100%;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 80px solid #101010;
+} 
+.fa-leaf {
+  margin: 30px -10px;
+  color: #15e91c;
+  font-size: 20px;
+}
+#off {
+  width: 6px;
+  height: 70px;
+  position: absolute;
+  background: #000;
+  border: 0;
+  border-radius: 0 5px 5px 0;
+  margin: 110px 313px;
+  box-shadow: 1px 1px 0px 0px #303030, 1px -1px 0px 0px #303030;
+}
+#off:active {
+  width: 4px;
+}
+.phone {
+  width: 275px;
+  height: 525px;
+  background: url(https://i.imgur.com/5nrtbfy.jpg);
+  background-size: 110%;
+  margin: 0 auto;
+  border-radius: 25px;
+  box-shadow: inset 0px 0px 0px 3px #bab5dd,inset 0px 0px 0px 12px #010000;
+}
+.cam {
+  width: 150px;
+  height: 22px;
+  position: absolute;
+  margin: 4px 63px 0;
+  background: #000;
+  border-radius: 31px;
+  z-index:9999;
+}
+#apps {
+  width: 251px;
+  height: 501px;
+  position: absolute;
+  padding: 23px 13px;
+  margin: 12px 12px;
+}
+.bar {
+  width: 235px;
+  height: 60px;
+  position: absolute;
+  margin: 350px -5px 0;
+  background: #00000057;
+  border-radius: 15px;
+  padding: 0 10px;
+}
+.call, .compass, .text, .music, #convert{
+  width: 40px;
+  height: 40px;
+  margin: 10px 5.3px;
+  display: inline-block;
+  border-radius: 7px;
+  background: #FFF;
+}
+#convert{
+  margin: 10px 5.3px;
+  display: inline-block;
+  border:0;
+  background: linear-gradient(to bottom, #7D8FA3 0%, #373F48 100%);
+}
+.call, .text {
+  background: linear-gradient(to bottom, #5CFC79 0%, #43B858 100%);
+}
+.music {
+  background: linear-gradient(to bottom, #FD6A7E 0%, #CF5155 100%);
+}
+.fa-phone-alt, .fa-comment, .fa-music{
+  font-size: 25px;
+  margin: 7.5px;
+}
+#app {
+  width: 251px;
+  height: 501px;
+  display:none;
+  position: absolute;
+  margin: 12px 12px;
+  background: #373f48;
+  border-radius: 12px;
+}
+.open {
+  display:block!important;
+}
+.close {
+  display:none!important;
+}
+.page-logo {
+  width: 300px;
+  margin: 20px 25px 0;
+}
+#app .now {
+  width: 225px;
+  height:225px;
+  margin: 30px auto;
+  border-radius: 100%;
+  box-shadow: inset 0px 0px 0px 1px #353c43,inset 0px 0px 0px 30px #556066;
+}
+#app .now h1 {
+  text-align: center;
+  font-size: 70px;
+  line-height: 230px;
+}
+#app .now h1 span {
+    font-size: 20px;
+    position: absolute;
+    margin: -30px -5px;
+}
+#app > .triangle {
+  width: 0; 
+  height: 0; 
+  margin: -110px auto;
+  border-radius: 100%;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 80px solid #373f48;
+}
+#app > .fa-leaf {
+  margin: 30px -10px;
+  color: #15e91c;
+  font-size: 20px;
+}
+#app .calculator {
+  width: 230px;
+  margin: 110px 10px;
+}
+.calculator h2 {
+  text-align: center;
+  font-size: 22px;
+}
+.calculator p {
+  text-align: justify;
+  font-size: 15px;
+  margin:7px 1px 10px;
+}
+.calculator input {
+  display: inline-block;
+  width: 232px;
+  height: 35px;
+  margin: 0 0 5px;
+  outline: none!important;
+  padding: 0 10px;
+  font-size: 15px;
+  align-items: center;
+  color: #22272c;
+  background: #fff;
+  border: 1px solid #353c43;
+  border-radius: 5px;
+}
+.phone button:focus {
+  outline: 0;
+  outline: none;
+}
+.phone button{
+  width: 107px;
+  height: 50px;
+  background: #47cf73;
+  border: none;
+  font-size: 22px;
+  font-weight: 750;
+  margin: 5px 3px;
+  color: #FFF;
+  border-radius: 7px;
+  box-shadow: inset 0px 0px 0px 1px rgb(0 0 0 / 25%), inset 0px 5px 0px 0px rgb(255 255 255 / 15%), inset 0px -5px 0px 0px rgb(0 0 0 / 25%);
+}
+.phone button:active {
+  box-shadow:inset 0px 0px 0px 1px rgba(0,0,0,0.25),inset 0px 5px 0px 0px rgba(0,0,0,0.25);
+}
+#forml {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 22px;
+}
